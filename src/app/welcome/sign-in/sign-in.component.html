@@ -1,0 +1,144 @@
+<br /><br />
+<div class="row">
+  <div
+    class="
+      col-xl-10
+      offset-xl-1
+      col-lg-10
+      offset-lg-2
+      col-md-9
+      offset-md-2
+      col-sm-9
+      offset-sm-2
+      col-9
+      offset-2
+    "
+  >
+    <h2><strong>Sign in your account</strong></h2>
+  </div>
+</div>
+<form>
+  <br />
+  <div class="row">
+    <div
+      class="
+        col-xl-6
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="username" class="control-label">
+        <b>Username</b>
+      </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        class="form-control"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div
+      class="
+        col-xl-3
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="role" class="control-label"><b>Role</b></label>
+      <select id="role" name="role" class="form-control">
+        <option value="">select your role</option>
+        <option value="admin">Admin</option>
+        <option value="author">Author</option>
+        <option value="editor">Editor</option>
+        <option value="reviewer">Reviewer</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div
+      class="
+        col-xl-6
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="password" class="control-label"><b>Password</b></label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        class="form-control"
+        placeholder="must have eight characters"
+        autocomplete="on"
+      />
+    </div>
+  </div>
+  <div class="row">
+    <div
+      class="
+        col-xl-10
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+      "
+    >
+      <a [routerLink]="['../reset']" type="button" class="text-muted"
+        >Forgot your password?</a
+      >
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div
+      class="
+        col-xl-10
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        text-center
+      "
+    >
+      <button type="submit" class="btn btn-sm rounded-pill px-5">
+        Sign in
+      </button>
+    </div>
+  </div>
+</form>
+<br />

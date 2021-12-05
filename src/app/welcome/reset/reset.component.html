@@ -1,0 +1,152 @@
+<br /><br />
+<div class="row">
+  <div
+    class="
+      col-xl-10
+      offset-xl-1
+      col-lg-10
+      offset-lg-2
+      col-md-9
+      offset-md-2
+      col-sm-9
+      offset-sm-2
+      col-9
+      offset-2
+    "
+  >
+    <h2>
+      <strong>Forgot Password?</strong>
+    </h2>
+  </div>
+</div>
+<form>
+  <br />
+  <div class="row">
+    <div
+      class="
+        col-xl-5
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="email" class="control-label">
+        <b>Recovery email</b>
+      </label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div
+      class="
+        col-xl-4
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <br />
+      <button type="button" class="btn btn-sm px-5 mt-2" *ngIf="true">
+        Verify mail
+      </button>
+    </div>
+  </div>
+</form>
+<form>
+  <div class="row" *ngIf="true">
+    <div
+      class="
+        col-xl-5
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="securityQuestion">
+        <b>Your security question</b>
+      </label>
+      <input
+        type="text"
+        name="securityQuestion"
+        id="securityQuestion"
+        class="form-control question"
+        value="What is the name of your first school?"
+        disabled
+      />
+    </div>
+    <div
+      class="
+        col-xl-4
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        form-group
+      "
+    >
+      <label for="securityAnswer" class="control-label">
+        <b>Provide your answer</b>
+      </label>
+      <input
+        type="text"
+        name="securityAnswer"
+        id="securityAnswer"
+        class="form-control"
+        placeholder="answer"
+      />
+    </div>
+  </div>
+  <br />
+  <div class="row" *ngIf="true">
+    <div
+      class="
+        col-xl-10
+        offset-xl-1
+        col-lg-9
+        offset-lg-2
+        col-md-9
+        offset-md-2
+        col-sm-9
+        offset-sm-2
+        col-9
+        offset-2
+        text-center
+      "
+    >
+      <button type="submit" class="btn btn-sm rounded-pill px-5">
+        Send recovery password
+      </button>
+    </div>
+  </div>
+</form>
+<br />
