@@ -1,3 +1,10 @@
+.container-fluid {
+  min-height: 100vh;
+  padding-top: 8%;
+  background: #000046;
+  background: -webkit-linear-gradient(to left, #1cb5e0, #000046);
+  background: linear-gradient(to left, #1cb5e0, #000046);
+}
 h1,
 p {
   color: #ffffff;
